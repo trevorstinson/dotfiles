@@ -16,5 +16,5 @@
 ## VS Code
 
 ```
-> ln -s ~/.dotfiles/vscode/{keybindings.json,settings.json} /Users/trevor/Library/Application\ Support/Code/User
+> ln -s ~/.dotfiles/vscode/{keybindings.json,settings.json} ~/Library/Application\ Support/Code/User
 ```
