@@ -1,0 +1,11 @@
+{
+    "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace", // Add Inconsolata to default stack
+    "editor.fontSize": 16, // Inconsolata is kinda small
+    "editor.wordWrap": "on", // I'm on a laptop
+    "files.insertFinalNewline": true, // I got used to this from Atom
+    "terminal.integrated.fontSize": 16, // Inconsolata is kinda small
+    "workbench.activityBar.visible": false, // Big fat buttons I didn't use
+    "workbench.colorTheme": "One Dark Pro Vivid", // Clone of Atom's default w/ slightly higher contrast
+    "workbench.startupEditor": "newUntitledFile", // Stop Welcome screen from appearing
+    "workbench.statusBar.feedback.visible": false, // No smiley face
+}
