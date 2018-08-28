@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace", // Add Inconsolata to default stack
+    "editor.fontFamily": "InconsolataGo, Inconsolata, Menlo, Monaco, 'Courier New', monospace", // Add Inconsolata to default stack
     "editor.fontSize": 16, // Inconsolata is kinda small
     "editor.wordWrap": "on", // I'm on a laptop
     "files.insertFinalNewline": true, // I got used to this from Atom
