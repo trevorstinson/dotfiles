@@ -1,4 +1,6 @@
-alias ls='ls -GFh'                              # make ls more informative
+# system shortcuts
+alias ls='ls -GFh'          # make ls more informative
+alias mkdir='mkdir -pv'     # automatically create parents; print result
 
 export PATH="$PATH:$HOME/.composer/vendor/bin"  # for Laravel Valet
 export EDITOR=/usr/bin/nano                     # no Vim please
