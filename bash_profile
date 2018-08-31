@@ -5,6 +5,18 @@ alias dot='cd ~/.dotfiles'
 alias ts='cd ~/Sites/trevorstinson.com'
 alias tstheme='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
 
+# git shortcuts
+alias add='git add .'
+alias catchup='git merge master'
+alias dev='git checkout develop'
+alias diff='git diff'
+alias fetch='git fetch --all'
+alias mast='git checkout master'
+alias pull='git pull'
+alias push='git push'
+alias ship='git merge develop'
+alias status='git status'
+
 # system shortcuts
 alias ls='ls -GFh'          # make ls more informative
 alias mkdir='mkdir -pv'     # automatically create parents; print result
