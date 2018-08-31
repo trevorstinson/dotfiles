@@ -1,8 +1,9 @@
 # navigation shortcuts
+alias bw='cd ~/Sites/betterworlds'
+alias bwtheme='cd ~/Sites/betterworlds/site/themes/operative'
+alias dot='cd ~/.dotfiles'
 alias ts='cd ~/Sites/trevorstinson.com'
 alias tstheme='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
-alias bw='cd ~/Sites/betterworlds.net'
-alias bwtheme='cd ~/Sites/betterworlds.net/site/themes/operative'
 
 # system shortcuts
 alias ls='ls -GFh'          # make ls more informative
