@@ -1,3 +1,9 @@
+# navigation shortcuts
+alias ts='cd ~/Sites/trevorstinson.com'
+alias tstheme='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
+alias bw='cd ~/Sites/betterworlds.net'
+alias bwtheme='cd ~/Sites/betterworlds.net/site/themes/operative'
+
 # system shortcuts
 alias ls='ls -GFh'          # make ls more informative
 alias mkdir='mkdir -pv'     # automatically create parents; print result
