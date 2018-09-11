@@ -5,6 +5,9 @@ alias dot='cd ~/.dotfiles'
 alias ts='cd ~/Sites/trevorstinson.com'
 alias tstheme='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
 
+alias shownotes='cd /Users/trevor/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Shownotes'
+alias shownotesdb='cd /Users/trevor/Dropbox/Better\ Worlds/Shownotes'
+
 # git shortcuts
 alias add='git add .'
 alias catchup='git merge master'
