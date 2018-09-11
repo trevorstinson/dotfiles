@@ -1,12 +1,12 @@
 # navigation shortcuts
 alias bw='cd ~/Sites/betterworlds'
-alias bwtheme='cd ~/Sites/betterworlds/site/themes/operative'
+alias bwt='cd ~/Sites/betterworlds/site/themes/operative'
 alias dot='cd ~/.dotfiles'
 alias ts='cd ~/Sites/trevorstinson.com'
-alias tstheme='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
+alias tst='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
 
-alias shownotes='cd /Users/trevor/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Shownotes'
-alias shownotesdb='cd /Users/trevor/Dropbox/Better\ Worlds/Shownotes'
+alias sn='cd /Users/trevor/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Shownotes'
+alias snd='cd /Users/trevor/Dropbox/Better\ Worlds/Shownotes'
 
 # git shortcuts
 alias add='git add .'
