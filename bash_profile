@@ -19,6 +19,7 @@ alias pull='git pull'
 alias push='git push'
 alias ship='git merge develop'
 alias status='git status'
+alias log='git log --pretty=oneline'
 
 # system shortcuts
 alias ls='ls -GFh'          # make ls more informative
