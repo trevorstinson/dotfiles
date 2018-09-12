@@ -39,4 +39,4 @@ parse_git_branch() {
 }
 
 # Customize prompt
-export PS1="\[\e[1;30m\]\A\[\e[1;30m\]\[\e[m\]  \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+export PS1="\[\e[1;30m\]\A\[\e[1;30m\]\[\e[m\]  \W/\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
