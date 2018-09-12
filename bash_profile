@@ -1,4 +1,5 @@
 # navigation shortcuts
+alias ~='cd ~'
 alias bw='cd ~/Sites/betterworlds'
 alias bwt='cd ~/Sites/betterworlds/site/themes/operative'
 alias dot='cd ~/.dotfiles'
