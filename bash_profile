@@ -46,6 +46,8 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"  # for Laravel Valet
 export EDITOR=/usr/bin/nano                     # no Vim please
 export PATH=/usr/local/miniconda3/bin:"$PATH"   # Peace in our time (between Homebrew and LC's recommended Python setup)
 
+# export PATH="/usr/local/sbin:$PATH"
+
 # Git branch in prompt.
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -53,3 +55,4 @@ parse_git_branch() {
 
 # Customize prompt
 export PS1="\[\e[1;30m\]\A\[\e[1;30m\]\[\e[m\]  \W/\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+
