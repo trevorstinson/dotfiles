@@ -13,6 +13,7 @@ $ mv dotfiles .dotfiles
 ```
 $ ln -s ~/.dotfiles/bash_profile ~/.bash_profile
 $ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
+$ git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ## Peppermint Terminal theme
