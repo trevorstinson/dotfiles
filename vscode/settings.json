@@ -3,10 +3,43 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "files.insertFinalNewline": true,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "One Dark Pro Vivid",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
     "scss.lint.idSelector": "warning",
     "scss.lint.ieHack": "warning",
+    "terminal.integrated.lineHeight": 0,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "prettier.tabWidth": 4,
+    "explorer.openEditors.visible": 0,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vetur.format.options.tabSize": 4,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.arrowParens": "always",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "eslint.options": {
+        "ignorePattern": ["vendor", "node_modules"]
+    },
+    "eslint.packageManager": "yarn",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "vue-html",
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "oneDarkPro.vivid": true,
+    "workbench.activityBar.visible": false,
+    "php.suggest.basic": false,
+    "explorer.confirmDelete": false,
+    "files.autoSave": "off",
+    "explorer.confirmDragAndDrop": false,
 }
