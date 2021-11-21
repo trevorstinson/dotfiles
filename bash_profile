@@ -31,7 +31,7 @@ alias gfa='git fetch --all'
 alias log='git log --pretty=oneline'
 alias gl='git pull'
 alias gp='git push'
-alias gst='git status'
+alias gs='git status'
 
 # git branches
 
