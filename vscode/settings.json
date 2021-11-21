@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "newUntitledFile",
     "scss.lint.idSelector": "warning",
@@ -17,7 +17,6 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "vetur.format.options.tabSize": 4,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -25,9 +24,9 @@
     "prettier.singleQuote": true,
     "prettier.trailingComma": "all",
     "eslint.options": {
+
         "ignorePattern": ["vendor", "node_modules"]
     },
-    "eslint.packageManager": "yarn",
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -40,6 +39,15 @@
     "workbench.activityBar.visible": false,
     "php.suggest.basic": false,
     "explorer.confirmDelete": false,
-    "files.autoSave": "off",
+    "files.autoSave": "onFocusChange",
     "explorer.confirmDragAndDrop": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "terminal.integrated.fontSize": 16,
+    "editor.tabSize": 2,
+    "eslint.enable": false,
 }
