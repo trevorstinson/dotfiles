@@ -32,6 +32,7 @@ alias log='git log --pretty=oneline'
 alias gl='git pull'
 alias gp='git push'
 alias gs='git status'
+alias gdc='git diff --cached'
 
 # git branches
 
