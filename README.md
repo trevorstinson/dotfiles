@@ -9,7 +9,7 @@ $ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 ## Symlink macOS system dotfiles
 
 ```
-$ ln -s ~/.dotfiles/bash_profile ~/.bash_profile
+$ ln -s ~/.dotfiles/.zprofile ~/.zprofile
 $ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
