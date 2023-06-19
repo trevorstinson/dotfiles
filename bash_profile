@@ -1,28 +1,3 @@
-# navigation shortcuts
-
-alias ~='cd ~'
-alias ..='cd ..'
-
-alias repos='cd ~/repos'
-alias sites='cd ~/Sites'
-
-# repos
-
-alias bl='cd ~/Sites/booklog'
-alias bw='cd ~/Sites/betterworlds'
-alias bwt='cd ~/Sites/betterworlds/site/themes/operative'
-alias dot='cd ~/.dotfiles'
-alias notes='cd ~/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Notes'
-alias sn='cd ~/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Shownotes'
-alias snd='cd ~/Dropbox/Better\ Worlds/Shownotes'
-alias ts='cd ~/Sites/trevorstinson.com'
-alias tst='cd ~/Sites/trevorstinson.com/site/themes/mainstay'
-
-# app shortcuts
-
-alias code='code .'
-alias open='open .'
-
 # git commands
 
 alias add='git add .'
