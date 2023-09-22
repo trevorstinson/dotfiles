@@ -10,6 +10,7 @@ $ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 
 ```
 $ ln -s ~/.dotfiles/.zprofile ~/.zprofile
+$ ln -s ~/.dotfiles/.zshrc ~/.zshrc 
 $ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
 $ git config --global core.excludesfile ~/.gitignore_global
 ```
