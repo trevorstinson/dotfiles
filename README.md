@@ -25,8 +25,8 @@ git config --global core.excludesfile ~/.gitignore_global
 VS Code:
 
 ```zsh
-ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
-ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ```
 
 ## Font
