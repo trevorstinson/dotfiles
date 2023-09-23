@@ -2,31 +2,31 @@
 
 ## Clone repo
 
-```
-$ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
+```zsh
+git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 ```
 
 ## Symlink dotfiles
 
 zsh:
 
-```
-$ ln -s ~/.dotfiles/.zprofile ~/.zprofile
-$ ln -s ~/.dotfiles/.zshrc ~/.zshrc 
+```zsh
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc 
 ```
 
 git:
 
-```
-$ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
-$ git config --global core.excludesfile ~/.gitignore_global
+```zsh
+ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 VS Code:
 
-```
-$ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
-$ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+```zsh
+ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
 ```
 
 ## Font
@@ -42,6 +42,6 @@ The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/l
 
 ## VS Code
 
-```
-$ ln -s ~/.dotfiles/vscode/{keybindings.json,settings.json} ~/Library/Application\ Support/Code/User
+```zsh
+ln -s ~/.dotfiles/vscode/{keybindings.json,settings.json} ~/Library/Application\ Support/Code/User
 ```
