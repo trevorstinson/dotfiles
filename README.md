@@ -2,31 +2,31 @@
 
 ## Clone repo
 
-```
-$ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
+```zsh
+git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 ```
 
 ## Symlink dotfiles
 
-zsh:
+### zsh
 
-```
-$ ln -s ~/.dotfiles/.zprofile ~/.zprofile
-$ ln -s ~/.dotfiles/.zshrc ~/.zshrc 
-```
-
-git:
-
-```
-$ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
-$ git config --global core.excludesfile ~/.gitignore_global
+```zsh
+ln -s ~/.dotfiles/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/.zshrc ~/.zshrc 
 ```
 
-VS Code:
+### git
 
+```zsh
+ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 ```
-$ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
-$ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
+
+### VS Code
+
+```zsh
+ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ```
 
 ## Font
@@ -39,9 +39,3 @@ Themes included in this repo use the font [InconsolataGo](http://levien.com/type
 2. Go into Terminal settings and set Peppermint as the default profile.
 
 The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint). The version I use is only slightly modified.
-
-## VS Code
-
-```
-$ ln -s ~/.dotfiles/vscode/{keybindings.json,settings.json} ~/Library/Application\ Support/Code/User
-```
