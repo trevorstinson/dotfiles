@@ -6,13 +6,27 @@
 $ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 ```
 
-## Symlink macOS system dotfiles
+## Symlink dotfiles
+
+zsh:
 
 ```
 $ ln -s ~/.dotfiles/.zprofile ~/.zprofile
 $ ln -s ~/.dotfiles/.zshrc ~/.zshrc 
+```
+
+git:
+
+```
 $ ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
 $ git config --global core.excludesfile ~/.gitignore_global
+```
+
+VS Code:
+
+```
+$ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
+$ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
 ```
 
 ## Font

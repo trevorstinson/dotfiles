@@ -1,53 +1,10 @@
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "files.insertFinalNewline": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "scss.lint.idSelector": "warning",
-    "scss.lint.ieHack": "warning",
-    "terminal.integrated.lineHeight": 0,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "none",
-    "breadcrumbs.enabled": false,
-    "editor.renderControlCharacters": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "prettier.tabWidth": 4,
-    "explorer.openEditors.visible": 0,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.arrowParens": "always",
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "all",
-    "eslint.options": {
-
-        "ignorePattern": ["vendor", "node_modules"]
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "vue",
-        "vue-html",
-    ],
-    "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "oneDarkPro.vivid": true,
-    "workbench.activityBar.visible": false,
-    "php.suggest.basic": false,
-    "explorer.confirmDelete": false,
-    "files.autoSave": "onFocusChange",
-    "explorer.confirmDragAndDrop": false,
-    "[cpp]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "[c]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "terminal.integrated.fontSize": 16,
-    "editor.tabSize": 2,
-    "eslint.enable": false,
+    "github.gitProtocol": "ssh",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Solarized Dark",
 }

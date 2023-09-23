@@ -1,7 +1,6 @@
-// Place your key bindings in this file to overwrite the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        // Sorts lines a-z. f5 was already taken.
         "key": "ctrl+cmd+s",
         "command": "editor.action.sortLinesAscending"
     }
