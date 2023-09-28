@@ -31,11 +31,16 @@ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/Us
 
 ## Font
 
-Themes included in this repo use the font [InconsolataGo](http://levien.com/type/myfonts/inconsolata/) by Ralph Levian. InconsolataGo is a variant of [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) with straight quotes. Inconsolata can also be found [on GitHub](https://github.com/google/fonts/tree/master/ofl/inconsolata) and [on Google Fonts](https://fonts.google.com/specimen/Inconsolata).
+Themes included in this repo use the font [Fira Code](https://github.com/tonsky/FiraCode), which can be installed with homebrew:
+
+```zsh
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+```
 
 ## Peppermint Terminal theme
 
 1. Double-click it.
 2. Go into Terminal settings and set Peppermint as the default profile.
 
-The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint). The version I use is only slightly modified.
+The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint). The version I use is slightly modified.
