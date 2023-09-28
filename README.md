@@ -20,6 +20,7 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 ```zsh
 ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
+git config --global push.autoSetupRemote true
 ```
 
 ### VS Code
