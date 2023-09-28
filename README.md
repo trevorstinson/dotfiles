@@ -11,8 +11,8 @@ git clone git@github.com:trevorstinson/dotfiles.git ~/.dotfiles
 ### zsh
 
 ```zsh
-ln -s ~/.dotfiles/.zprofile ~/.zprofile
-ln -s ~/.dotfiles/.zshrc ~/.zshrc 
+ln -s ~/.dotfiles/zprofile ~/.zprofile
+ln -s ~/.dotfiles/zshrc ~/.zshrc
 ```
 
 ### git
