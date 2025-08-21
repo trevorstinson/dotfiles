@@ -14,5 +14,11 @@
     "gitblame.inlineMessageMargin": 4,
     "gitblame.statusBarMessageFormat": "${author.name} (${time.ago})",
     "terminal.integrated.fontSize": 14,
-    "workbench.colorTheme": "Solarized Dark"
+    "prettier.singleQuote": true,
+    "python.createEnvironment.trigger": "off",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "git.blame.editorDecoration.enabled": true,
+    "workbench.colorTheme": "Dark Space Black"
 }

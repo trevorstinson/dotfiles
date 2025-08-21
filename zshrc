@@ -70,13 +70,8 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search)
 
-ZSH_WEB_SEARCH_ENGINES=(
-    kagi "https://kagi.com/search?q="
-    mdn "https://developer.mozilla.org/en-US/search?q="
-)
-
+plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -104,3 +99,17 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# python
+if command -v pyenv >/dev/null 2>&1; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+else
+  echo "missing pyenv, install with:"
+  echo "brew install pyenv"
+  echo "pyenv install 3.12.2"
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
