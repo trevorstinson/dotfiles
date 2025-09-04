@@ -20,5 +20,6 @@
         "source.organizeImports": "always"
     },
     "git.blame.editorDecoration.enabled": true,
-    "workbench.colorTheme": "Solarized Dark Chandrian"
+    "workbench.colorTheme": "Solarized Dark Chandrian",
+    "workbench.externalBrowser": "firefox"
 }
