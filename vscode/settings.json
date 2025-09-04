@@ -8,18 +8,13 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "gitblame.ignoreWhitespace": true,
-    "gitblame.inlineMessageEnabled": true,
-    "gitblame.inlineMessageFormat": "${author.name} (${time.ago})",
-    "gitblame.inlineMessageMargin": 4,
-    "gitblame.statusBarMessageFormat": "${author.name} (${time.ago})",
     "terminal.integrated.fontSize": 14,
     "prettier.singleQuote": true,
     "python.createEnvironment.trigger": "off",
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always"
     },
-    "git.blame.editorDecoration.enabled": true,
     "workbench.colorTheme": "Solarized Dark Chandrian",
-    "workbench.externalBrowser": "firefox"
+    "workbench.externalBrowser": "firefox",
+    "git.blame.editorDecoration.enabled": true
 }
