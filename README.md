@@ -35,7 +35,6 @@ ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/Us
 Themes included in this repo use the font [Fira Code](https://github.com/tonsky/FiraCode), which can be installed with homebrew:
 
 ```zsh
-brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 ```
 
