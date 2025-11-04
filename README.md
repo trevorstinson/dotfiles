@@ -30,6 +30,12 @@ ln -s ~/.dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 ln -s ~/.dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ```
 
+## Install nvm as an oh my zsh custom plugin
+
+```zsh
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+```
+
 ## Font
 
 Themes included in this repo use the font [Fira Code](https://github.com/tonsky/FiraCode), which can be installed with homebrew:
