@@ -49,4 +49,6 @@ brew install --cask font-fira-code
 1. Double-click it.
 2. Go into Terminal settings and set Peppermint as the default profile.
 
-The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint). The version I use is slightly modified.
+If Terminal theme installation is blocked by corporate policy, then the theme can be manually recreated in Terminal's settings.
+
+The Peppermint Terminal theme is by [Noah Frederick](https://noahfrederick.com/log/lion-terminal-theme-peppermint). The version here is modified to use Fira Code as the font.
