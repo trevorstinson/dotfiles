@@ -14,7 +14,9 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always"
     },
-    "workbench.colorTheme": "Solarized Dark Chandrian",
     "workbench.externalBrowser": "firefox",
-    "git.blame.editorDecoration.enabled": true
+    "git.blame.editorDecoration.enabled": true,
+    "workbench.preferredDarkColorTheme": "Solarized Black Chandrian",
+    "workbench.preferredLightColorTheme": "Solarized Dark Chandrian",
+    "window.autoDetectColorScheme": true
 }
